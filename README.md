@@ -1,4 +1,4 @@
-[josephhess.github.io ](http://josephhess.github.io/)
+[Go to my blog ](http://josephhess.github.io/)
 ====================
 
 personal blog
