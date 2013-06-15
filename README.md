@@ -1,4 +1,4 @@
-josephhess.github.io
+josephhess.github.io [This link](http://josephhess.github.io/)
 ====================
 
 personal blog
