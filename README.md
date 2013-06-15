@@ -1,4 +1,4 @@
-josephhess.github.io
+[Here's a big link to the blog :) ](http://josephhess.github.io/)
 ====================
 
-personal blog
+its more of a notepad than anything else but hey, if your'e curious go for it!
