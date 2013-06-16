@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Some Networking Thoughts"
-date:   2013-06-15 15:47:11
+date:   2013-06-16 15:47:11
 categories: Networking
 ---
 
