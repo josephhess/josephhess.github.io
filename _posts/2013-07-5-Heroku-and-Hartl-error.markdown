@@ -6,7 +6,7 @@ categories: rails tutorial
 ---
 
 if you end up seeing this error:
-{% highlight ruby %}
+{% highlight console %}
 !     Push rejected, no Cedar-supported app detected
 {% endhighlight %}
  among the many things it could be - it might be as simple as you need to initialize a new repository specifically for the heroku app you want to deploy.
