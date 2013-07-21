@@ -17,14 +17,14 @@ This will be one of two interaction points for the app along with the command li
 Once you have created a task in this file you will update the cron from the command line
 
 
-When you have your schedule.rb file created and filled with your task code enter at the command line 
+When you have your schedule.rb file created and filled with your task code enter at the command line
 `whenever -i project_name`(put your project identifier here, for example, the name of the rails project)
 this is equivalent to: `whenever --update-crontab project_name`
 
 You can then use `crontab -l` to look at the scripts added to cron and see thier associations
 
 `whenever -c` is the equivalent of `whenever --clear-crontab`
-with this you will want to use the association keyword you initially setup the cron job with as in 
+with this you will want to use the association keyword you initially setup the cron job with as in
 `whenever -c project_name` or `whenever --clear-crontab project_name`
 
 use `whenever --help` if you can't remember what the commands are.
@@ -36,7 +36,7 @@ You can also log your whenever's with-  `set :output, 'log/cron_log.log'` and cr
 A big gotcha is if you are working with rails 4 he hasn't implemented the patch to check for rails 4 yet.
 This means you will get an error if you try and run it since it will be using script/runner instead of rails runner.
 This means you will need to add a custom job runner as in:
-	`job_type :runner, "cd :path && bin/rails runner -e :environment ':task' :output"`
+`job_type :runner, "cd :path && bin/rails runner -e :environment ':task' :output"`
 
 The default environment is production so if you are in development mode you can add `:environment => :development` to your runner call to get it working.
 
