@@ -18,10 +18,11 @@ Once you have created a task in this file you will update the cron from the comm
 
 
 When you have your schedule.rb file created and filled with your task code enter at the command line
+
 `whenever -i project_name`(put your project identifier here, for example, the name of the rails project)
 this is equivalent to: `whenever --update-crontab project_name`
 
-You can then use `crontab -l` to look at the scripts added to cron and see thier associations
+You can then use `crontab -l` to look at the scripts added to cron and see their associations
 
 `whenever -c` is the equivalent of `whenever --clear-crontab`
 with this you will want to use the association keyword you initially setup the cron job with as in

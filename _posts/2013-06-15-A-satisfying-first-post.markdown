@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Satisfying First Post"
+title:  "A Satisfying First-ish Post"
 date:   2013-06-15 15:47:11
 categories: jekyll setup
 ---

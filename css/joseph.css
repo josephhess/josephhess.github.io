@@ -1,0 +1,27 @@
+/*****************************************************************************/
+/*
+/* Custom stuff
+/*
+/*****************************************************************************/
+
+.contact {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.contact-item{
+  margin-top: 5px;
+}
+
+ul, ol{
+	margin-left: 0px;
+}
+
+.footer p{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.well span{
+	font-size: 20px;
+}
