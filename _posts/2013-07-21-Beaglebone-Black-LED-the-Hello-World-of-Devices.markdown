@@ -11,7 +11,7 @@ I have a project I want to do getting a slow-cooker bbq driven by the beaglebone
 
 This week though hanging out at the node.js hack-n-hangout time I took a bit to at least get to what I have heard is the "Hello, World" of devices, a blinking led. What's crazy is the browser-based terminal they have for this thing kept deleting or changing characters in any line I tried editing after the first save!
 
-Thanks to a very cool guy there named Ben who hooked me up with an LED/resistor combo he had I got to the light phase but blinking had to be put of since I would have to get going with a different terminal after so many attempts to at least save with the crazy messed up terminal program it came with.
+Thanks to a very cool guy there named Robert who hooked me up with an LED/resistor combo he had I got to the light phase but blinking had to be put of since I would have to get going with a different terminal after so many attempts to at least save with the crazy messed up terminal program it came with.
 
 I was still happy enough to take a video of the light working since I'm such a dork :)
 
