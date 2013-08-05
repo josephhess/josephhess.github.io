@@ -1,66 +1,56 @@
 <!DOCTYPE html> 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Jekyll CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-          <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="/css/css/bootstrap.css">
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/joseph.css">
-
-    </head>
-    <body>
-
-        <div class="container">
-          <div class="site">
-            <div class="header clearfix">
-              <ul class=" pull-left nav nav-pills">
-                <h2 class="brand"><a href="/">{{ site.name }}</a></h2>
-                <li class="active">
-                    <li><a class="nav" href="/projects">projects</a></li>
-                    <li><a class="nav" href="/resume">resume</a></li>
-                    <li><a class="nav" href="mailto:readysteadyco@gmail.com">email</a></li>
-                </li>
-                </li>
-              </ul>
-              <img class=" pull-right img-rounded" src="http://www.gravatar.com/avatar/6a86b4ba595f8f770953ee7791178c94?s=100" />
-              <div class="contact pull-right">
-                <p>
-                  <div  class="contact-item"><a href="http://github.com/josephhess/">github.com/josephhess</a><br /></div>
-                  <div  class="contact-item"><a href="http://twitter.com/josevess/">twitter.com/josevess</a><br /></div>
-                  <div  class="contact-item"><a href="http://linkedin.com/in/josephhess">linkedin.com/in/josephhess</a><br/></div>
-                </p>
-              </div>
-            </div>
-              <hr>
-              
-                {{ content }}
-
-            <div class="footer">
-                <p>
-                  joseph hess   |   web developer (summer 2013)   |    readysteadyco@gmail.com
-                </p>
-              </div>
-            </div>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>{{ page.title }}</title>
+      <meta name="viewport" content="width=device-width">
+      <!-- syntax highlighting CSS -->
+      <link rel="stylesheet" href="/css/syntax.css">
+      <!-- Jekyll CSS -->
+      <link rel="stylesheet" href="/css/main.css">
+        <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="/css/css/bootstrap.css">
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="/css/joseph.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="site">
+        <div class="header clearfix">
+          <ul class=" pull-left nav nav-pills">
+            <h2 class="brand"><a href="/">{{ site.name }}</a></h2>
+            <li class="active">
+              <li><a class="nav" href="/projects">projects</a></li>
+              <li><a class="nav" href="/resume">resume</a></li>
+              <li><a class="nav" href="mailto:readysteadyco@gmail.com">email</a></li>
+            </li>
+          </ul>
+          <img class=" pull-right img-rounded" src="http://www.gravatar.com/avatar/6a86b4ba595f8f770953ee7791178c94?s=100" />
+          <div class="contact pull-right">
+            <p>
+              <div  class="contact-item"><a href="http://github.com/josephhess/">github.com/josephhess</a><br /></div>
+              <div  class="contact-item"><a href="http://twitter.com/josevess/">twitter.com/josevess</a><br /></div>
+              <div  class="contact-item"><a href="http://linkedin.com/in/josephhess">linkedin.com/in/josephhess</a><br/></div>
+            </p>
           </div>
-        </div> <!-- /container -->
-        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        </div>
+        <hr>
 
-  ga('create', 'UA-41778620-1', 'josephhess.github.io');
-  ga('send', 'pageview');
+            {{ content }}
 
-</script>
-    </body>
+        <div class="footer">
+          <p>joseph hess   |   web developer (summer 2013)   |    readysteadyco@gmail.com</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-41778620-1', 'josephhess.github.io');
+      ga('send', 'pageview');
+    </script>
+  </body>
 </html>

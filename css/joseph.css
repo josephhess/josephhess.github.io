@@ -25,3 +25,10 @@ ul, ol{
 .well span{
 	font-size: 20px;
 }
+.resume_top h1,h2,h3,h4{
+	margin-top: 0px;
+	margin-bottom: 4px;
+}
+.experience_lists{
+	margin-left: 10px;
+}
