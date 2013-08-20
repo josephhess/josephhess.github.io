@@ -8,20 +8,16 @@
   text-align: right;
   margin-right: 20px;
 }
-
 .contact-item{
   margin-top: 5px;
 }
-
 ul, ol{
 	margin-left: 0px;
 }
-
 .footer p{
 	margin-top: 20px;
 	text-align: center;
 }
-
 .well span{
 	font-size: 20px;
 }
@@ -33,5 +29,19 @@ ul, ol{
 	margin-left: 10px;
 }
 img{
+  margin-right: 20px;
   margin-bottom: 20px;
+}
+i{
+  font-size: 30px;
+}
+.brand{
+  margin-left: 15px;
+  margin-top:  30px;
+}
+.resume_top{
+  margin-left: 0px;
+}
+.brand{
+  color: #a0a;
 }
