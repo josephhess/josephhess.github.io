@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background-color: #ffffffin;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -163,4 +163,13 @@ ul.posts span {
 .post pre.terminal code {
   background-color: #333;
 }
+
+ul li {
+  list-style-type: none;
+}
+
+/* .rent_it {
+  display: inline-block;
+  width: 29%;
+} */
 

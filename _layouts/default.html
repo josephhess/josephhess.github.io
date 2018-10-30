@@ -14,6 +14,7 @@
       <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
       <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
       <!-- Custom CSS -->
+      <link href="/assets/favicon.ico" rel="icon" type="image/x-icon" />
       <link rel="stylesheet" href="/css/joseph.css">
   </head>
   <body>
@@ -24,17 +25,18 @@
           <ul class=" pull-left nav nav-pills">
             <h2 class="brand"><a href="/">{{ site.name }}</a></h2>
             <li class="active">
-            <li><a class="nav" href="/resume">resume</a></li>
+            <li><a class="nav" href="/">resume</a></li>
+            <li><a class="nav" href="/about_me">about me</a></li>
             <li><a class="nav" href="/projects">projects</a></li>
  <!--              <li><a class="nav" href="/posts">posts</a></li> -->
-            <li><a class="nav" href="mailto:readysteadyco@gmail.com">email</a></li>
+            <li><a class="nav" href="mailto:readysteadyco@gmail.com" target="blank">email</a></li>
             </li>
           <ul>
           </ul>
             <li class="active">
-              <li><a class="nav" href="http://github.com/josephhess/"><i class="icon-github-sign"></i></a></li>
+              <li><a class="nav" href="http://github.com/josephhess/" target="blank"><i class="icon-github-sign"></i></a></li>
 <!--               <li><a class="nav" href="http://twitter.com/josevess/"><i class="icon-twitter-sign"></i></a></li> -->
-              <li><a class="nav" href="http://linkedin.com/in/josephhess"><i class="icon-linkedin-sign"></i></a></li>
+              <li><a class="nav" href="http://linkedin.com/in/josephhess" target="blank"><i class="icon-linkedin-sign"></i></a></li>
             </li>
           </ul>
         </div>
@@ -53,7 +55,6 @@
       $("a").each(function(){
         var current_loc = $(this).attr('href');
         var current_address = $(location).attr('href');
-        console.log(current_address);
         if ((current_address.indexOf(current_loc) > -1) && current_loc != "/"){
           $(this).parent().addClass("active");
         }
