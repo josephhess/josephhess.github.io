@@ -5,7 +5,7 @@ external_url: www.28dayhug.com
 ---
 <div class="well">
 		<p class="well">
-		  <span>Rent It Forward</span>
+		   <span>Rent It Forward: <a href="https://fierce-lake-75543.herokuapp.com" target="blank">Visit site</a></span>
 		  <br>
 		  <br>
 			Rent It forward is a site for the times when a user wants to buy something that you only need on a temporary basis.
@@ -13,16 +13,59 @@ external_url: www.28dayhug.com
 			This enables the original user to work with a brand new item and the secondary buyer to get a very gently used item for a good deal.
 			It's a win for both users!
 		</p>
+		<div class="well">
+		<p>This app is in progress with the following features to be added shortly:
+			TODO:
+				<ol>
+					<li>Switch to Postgres from Mongo</li>
+					<li>A user can not make an offer on thier own items</li>
+					<li>Stripe integrated for payments</li>
+					<li>A user making an offer will make a 10% 'earnest' deposit (dep on stripe integration)</li>
+					<li>Add start and end dates for original user use timeframe</li>
+					<li>A user can edit item posting if no current offers on item</li>
+					<li>A user can delete thier offer if not accepted yet</li>
+				</ol>
+		</p>
+		</div>
+		<div class="well">
+			<p>Info:
+			<ul>
+				<li>Dummy Login Cred's: email: test@test.com password: 12345678</li>
+				<li><a href="https://github.com/josephhess/rent_it_forward_client" target="blank">Client Github  </a></li>
+				<li><a href="https://github.com/josephhess/rent_it_forward_server" target="blank">Server Github </a></li>
+				<li>Stack: React, Redux, Express, Mongo(soon to be postgres), Node</li>
+			</ul>
+		</p>
+		</div>
 		<img class="rent_it img-rounded img-responsive" src="../assets/make_offer.png">
 		<!-- <img class="rent_it img-rounded img-responsive" src="../assets/my_items.png"> -->
 	</div>
 <div>
+
+<div class="well">
+	<p class="well">
+	  <span>File Share Tool: <a href="https://file-share-test.herokuapp.com">Visit site</a></span>
+	  <br>
+	  <br>
+	  File Share Tool is an early rails app for me. A user can upload a file(which is stored on S3) and add a message. Then an email is sent to the recipient along with a link to access the file. When the recipient clicks on the link they have the ability to download the file and the original 'sharer' is sent a confirmation email that the recipient has viewed the link'
+	  <br>
+	  <br>
+	  Stack: Rails, Postgres, AWS S3
+	</p>
+	<img class="rent_it img-rounded img-responsive" src="../assets/file_share_test_email.png">
+</div>
+<div>
 	<div class="well">
 		<p class="well">
-		  <span>You Payed Us!: <a href="http://youpayedus.herokuapp.com/stripe">Visit site</a></span>
+		  <span>You Payed Us!: <a href="http://youpayedus.herokuapp.com/stripe" target="blank">Visit site</a></span>
 		  <br>
 		  <br>
 		  The YouPayed.us site is a place to get to MVP status with various subscription payment management systems.  I wanted an excuse to work more with api integrations and ajax calls and rails partials and the like and give people a place to compare payment systems thoroughly and quickly.
+			<br>
+		  NOTE! This is currently broken, need to update rails and a couple other things.
+	  	<br>
+		  <br>
+		  Stack: Rails, Stripe API
 		</p>
 		<img class="img-rounded img-responsive" src="../assets/YouPayedUs-main-page.png">
 	</div>
@@ -31,7 +74,8 @@ external_url: www.28dayhug.com
 		  <span>GetJson: <a href="http://get-json-game.herokuapp.com/">Visit site</a></span>
 		  <br>
 		  <br>
-		  While the getjson project from code school is certainly silly it was great to finally get my hands on pulling data down via api call and parsing it and adding it dynamically to a web site for the first time!
+		 This is the first project I did with ajax requests to an api. You cant actually win a game right now. It just alternates between two nemeses and when one of thier faces appear, their latest tweets appear as well.
+		 Trivial and silly all in one place.
 		</p>
 		<img class="img-rounded img-responsive" src="../assets/getjson.png">
 	</div>
